@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<queue-entries>
+    <queue>
+        <name>default</name>
+        <rate>1000/d</rate>
+        <bucket-size>30</bucket-size>
+    </queue>
+
+</queue-entries>
