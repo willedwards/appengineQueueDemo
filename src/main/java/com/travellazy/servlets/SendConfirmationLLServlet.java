@@ -12,12 +12,10 @@ public class SendConfirmationLLServlet extends HttpServlet {
 
         protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException{
 
-        String recipient = request.getParameter("recipient");
         String message = request.getParameter("message");
 
         log.info("sending email...");
         StringBuilder sb = new StringBuilder("the email service has been triggered");
-        sb.append("with recipient = " + recipient);
         sb.append("with message = " + message);
         sb.toString();
         log.info("sent email");
