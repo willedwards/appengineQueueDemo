@@ -2,8 +2,8 @@ Appengine Queue + Task + Worker Demo
 =============================
 
 I have put this code here for two reasons:
-1) to help others get started on the very useful feature of Tasks and Workers connected by Queues
-2) slightly suprised at the lack of complete code java examples for appengine queues.
+- 1) to help others get started on the very useful feature of Tasks and Workers connected by Queues
+- 2) slightly suprised at the lack of complete code java examples for appengine queues.
 
 The whole concept is similar to a producer + consumer pattern, connected by a queue. Only the Task = producer, the Worker = Consumer.
 
