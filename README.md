@@ -10,7 +10,11 @@ The whole concept is similar to a producer + consumer pattern, connected by a qu
 This is a nice way of doing threads without the boiler plate thread code. Rather it's kept to http.
 
 To run on the command line:
+
+
 ```
+ensure you are running java 7 !!!
+
 >mvn appengine:devserver
 ```
 
